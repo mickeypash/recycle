@@ -37,8 +37,8 @@ To constrain myself further I've selected a few items that I often wonder what t
 I'm so ADHD these days I just needed something as simple as table.
 If I extract it into a static page I can have a nice little short link which can tell me whether something is recyclable. E.g. `toiletry bottles` and `margarine containers` are some things I never really recycle and didn't know that if I rinse them I can.
 
-| Product                  | Rinse |
-|:-------------------------|:-----:|
+| Product                  |  Rinse |
+|:-------------------------|:------:|
 | plastic drink bottles    |   ✅   |
 | yogurt pots              |   ✅   |
 | cleaning product bottles |   ✅   |
@@ -50,6 +50,46 @@ If I extract it into a static page I can have a nice little short link which can
 | cartons                  |   ✅   |
 
 
+Link to [Tower Hamlets API Endpoint](http://ratings.food.gov.uk/OpenDataFiles/FHRS530en-GB.json)
+Current schema:
+```json
+{
+  "FHRSEstablishment": {
+    "Header": {
+      "ExtractDate": "2020-07-22",
+      "ItemCount": "2598",
+      "ReturnCode": "Success"
+    },
+    "EstablishmentCollection": {
+      "EstablishmentDetail": [
+        {
+          "FHRSID": "1227622",
+          "LocalAuthorityBusinessID": "202990",
+          "BusinessName": "1947 Restaurant & Bar",
+          "BusinessType": "Takeaway/sandwich shop",
+          "BusinessTypeID": "7844",
+          "AddressLine2": "38 Middlesex Street",
+          "AddressLine3": "London",
+          "PostCode": "E1 7EX",
+          "RatingValue": "4",
+          "RatingKey": "fhrs_4_en-GB",
+          "RatingDate": "2020-02-26",
+          "LocalAuthorityCode": "530",
+          "LocalAuthorityName": "Tower Hamlets",
+          "LocalAuthorityWebSite": "http://www.towerhamlets.gov.uk",
+          "LocalAuthorityEmailAddress": "foodsafety@towerhamlets.gov.uk",
+          "Scores": {
+            "Hygiene": "5",
+            "Structural": "0",
+            "ConfidenceInManagement": "10"
+          },
+          "SchemeType": "FHRS",
+          "NewRatingPending": "False",
+          "Geocode": {
+            "Longitude": "-0.07550500000000",
+            "Latitude": "51.51582500000000"
+          }
+```
 
 ### References
 https://www.towerhamlets.gov.uk/lgnl/environment_and_waste/recycling_and_waste/a-z_recycling_guide.aspx#
