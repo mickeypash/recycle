@@ -92,8 +92,9 @@ Current schema:
 ```
 
 ### References
-https://www.towerhamlets.gov.uk/lgnl/environment_and_waste/recycling_and_waste/a-z_recycling_guide.aspx#
-https://forms.towerhamlets.gov.uk/service/Check_your_waste_and_recycling_collection_days
-
-https://recyclecoach.com/residents/recyclepedia/
-https://recyclenation.com/
+- https://www.towerhamlets.gov.uk/lgnl/environment_and_waste/recycling_and_waste/a-z_recycling_guide.aspx#
+- https://forms.towerhamlets.gov.uk/service/Check_your_waste_and_recycling_collection_days
+- https://recyclecoach.com/residents/recyclepedia/
+- https://recyclenation.com/
+- https://lewisham.gov.uk/myservices/wasterecycle
+- https://www.recycleyourelectricals.org.uk/
